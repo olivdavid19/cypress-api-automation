@@ -9,6 +9,7 @@ Instalar Cypress
       npm install cypress --save-dev
 
 Adicionar token
+
       . Pegar o token por esse link: https://gorest.co.in/consumer/login
       . Adicionar o token no ficheiro cypress.example.env.json e renomear para cypress.env.json
 
