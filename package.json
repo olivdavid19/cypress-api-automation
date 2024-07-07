@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.13.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "npx cypress run",
+    "cypress:chrome": "npx cypress run --browser chrome --spec cypress/e2e/api/*.cy.js",
+    "cypress:edge": "npx cypress run --browser edge --spec cypress/e2e/api/*.cy.js",
+    "cypress:runChromeHeadless": "npx cypress run --headless --browser chrome --spec cypress/e2e/api/*.cy.js"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1"
+  }
+}
